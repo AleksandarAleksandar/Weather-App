@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  transition: all 0.2s;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.show-weather-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.show-weather-item {
+  padding: 20px;
+}
